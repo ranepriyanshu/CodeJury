@@ -1,0 +1,86 @@
+.background {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-attachment: auto;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.create-problem-container {
+  max-width: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 100px;
+}
+
+.create-problem-container img {
+  height: 60px;
+  margin: 0;
+}
+
+.create-problem-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.create-problem-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-problem-container label {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.create-problem-container input,
+.create-problem-container textarea,
+.create-problem-container select {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 90%;
+}
+
+.create-problem-container button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.create-problem-container button:hover {
+  background: #0056b3;
+}
+
+.create-problem-container button:focus {
+  outline: none;
+}
+
+.example-case,
+.test-case {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-case input,
+.test-case input {
+  width: 100%;
+  margin-bottom: 10px;
+}
